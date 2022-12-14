@@ -7,10 +7,10 @@ body {
     height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-    color: #888;
+    color: #E8ECEB;
 	font-size: 16px;
 	line-height: 1.6em;
-    background-color: #fff;
+    background-color: #2D3E4E;
 }
 
 html {
@@ -27,12 +27,12 @@ h6 {
     margin: 0 0 30px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
-    color: #444;
+    color: #E8ECEB;
 }
 
 blockquote {
 	font-family: Georgia, arial, sans-serif;
-	color: #bbb;
+	color: #E8ECEB;
 	font-size: 20px;
 }
 
@@ -68,12 +68,12 @@ img.img-responsive {
 
 /* ------- Navigation ------------ */
 #navigation {
-	background: #fff;
+	background: #8CBDB9;
 	z-index: 9999;
 	width:100%;
     box-sizing:border-box;
 	border-bottom: 1px solid #eee;
-	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
+	box-shadow:0px 0px 20px rgba(140, 189, 185, 1);
 	text-align: center;
 	margin: 0 auto;
 }
@@ -92,8 +92,9 @@ img.img-responsive {
     outline: 0;
 }
 
+
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(140, 189, 185, 1);
 }
 
 #menu .nav.navbar-bar {
@@ -137,13 +138,13 @@ img.img-responsive {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(140, 189, 185, 1);
 }
 
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
+    color: #8CBDB9;
 }
 
 .navbar-toggle:focus,
@@ -380,7 +381,7 @@ hr {
 ============================ */
 
 .form-wrapper {
-	background: #f9f9f9;
+	background: #E09E50;
 	padding: 40px;
 	 border-radius: 6px;
 }
@@ -428,12 +429,14 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
 	text-align: center;
-	padding: 50px 0 30px;
+	padding: 10px 0 5px;
+    color:#E09E50;
+    
 	
 }
 
 footer p {
-	color: #f8f8f8;
+	color: #E8ECEB;
 }
 
 footer a {
